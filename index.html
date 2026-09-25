@@ -276,6 +276,7 @@
     cursor:pointer;
   }
   .btn:hover{ transform:translateY(-3px); }
+  .icon{ width:1.05em; height:1.05em; fill:none; stroke:currentColor; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; flex-shrink:0; }
   .btn-solid{ background:var(--rust); color:var(--offwhite); box-shadow:0 16px 30px -14px rgba(134,48,27,0.7); text-shadow:none; }
   .btn-solid:hover{ background:var(--rust-deep); }
   .btn-ghost{ background:rgba(250,246,238,0.08); color:var(--offwhite); border-color:rgba(250,246,238,0.6); text-shadow:none; }
@@ -461,7 +462,7 @@
   }
   .map-card .map-pin .dot{
     width:46px; height:46px; border-radius:50%; background:var(--rust);
-    display:flex; align-items:center; justify-content:center; font-size:1.3rem;
+    display:flex; align-items:center; justify-content:center; font-size:1.3rem; color:var(--offwhite);
     box-shadow:0 0 0 8px rgba(166,61,35,0.3);
   }
   .map-card .map-pin b{ font-family:"Fraunces",serif; font-size:1.15rem; font-weight:500; }
@@ -536,7 +537,7 @@
     <h1 class="reveal in">Long lunches.<br>Soft sundowners.<br><em>Dinners by the sea.</em></h1>
     <p class="hero-sub reveal in">A backwater-facing kitchen &amp; bar tucked into Ashvewada, Mandrem — handcrafted cocktails, wood-fired tandoor and a golden hour that stops conversations mid-sentence.</p>
     <div class="hero-ctas reveal in">
-      <a href="tel:+917756840804" class="btn btn-solid">📞 Call &amp; Reserve</a>
+      <a href="tel:+917756840804" class="btn btn-solid"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg> Call &amp; Reserve</a>
       <a href="#menu" class="btn btn-ghost">View the Menu</a>
     </div>
   </div>
@@ -687,21 +688,21 @@
       <h2 style="margin-top:10px;">Find your table by the water.</h2>
       <div class="visit-list">
         <div class="visit-item">
-          <div class="ic">📍</div>
+          <div class="ic"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
           <div>
             <h4>Address</h4>
             <p>226/1F, Ashvewada, Mandrem,<br>North Goa, Goa 403527</p>
           </div>
         </div>
         <div class="visit-item">
-          <div class="ic">🕐</div>
+          <div class="ic"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
           <div>
             <h4>Hours</h4>
             <p>Open daily · 12:30 PM – 11:45 PM</p>
           </div>
         </div>
         <div class="visit-item">
-          <div class="ic">📞</div>
+          <div class="ic"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></div>
           <div>
             <h4>Reservations</h4>
             <p><a href="tel:+917756840804">+91 77568 40804</a></p>
@@ -716,13 +717,13 @@
         </div>
       </div>
       <div class="hero-ctas" style="margin-top:34px;">
-        <a href="tel:+917756840804" class="btn btn-solid">📞 Call &amp; Reserve</a>
+        <a href="tel:+917756840804" class="btn btn-solid"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg> Call &amp; Reserve</a>
         <a href="https://share.google/2Z9keEXsOl0VbDTC5" target="_blank" rel="noopener" class="btn btn-ghost">Get Directions</a>
       </div>
     </div>
     <a class="map-card reveal" href="https://share.google/2Z9keEXsOl0VbDTC5" target="_blank" rel="noopener">
       <div class="map-pin">
-        <div class="dot">📍</div>
+        <div class="dot"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
         <b>Ashvewada, Mandrem</b>
         <span>Open in Google Maps</span>
       </div>
@@ -759,7 +760,7 @@
 </footer>
 
 <div class="sticky-cta" id="stickyCta">
-  <a href="tel:+917756840804" class="btn btn-solid">📞 Call Now</a>
+  <a href="tel:+917756840804" class="btn btn-solid"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg> Call Now</a>
   <a href="https://share.google/2Z9keEXsOl0VbDTC5" target="_blank" rel="noopener" class="btn btn-ghost" style="border:1px solid var(--line); color:var(--text);">Directions</a>
 </div>
 
